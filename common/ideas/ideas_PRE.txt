@@ -1,7 +1,7 @@
 ideas = {
     country = {
         PRE_working_class_unrest_high = {
-			picture = GFX_idea_PRE_working_class_unrest
+			picture = PRE_working_class_unrest
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.4
@@ -12,7 +12,7 @@ ideas = {
 		}
 
         PRE_working_class_unrest_moderate = {
-			picture = GFX_idea_PRE_working_class_unrest
+			picture = PRE_working_class_unrest
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.3
@@ -23,7 +23,7 @@ ideas = {
 		}
 
 		PRE_public_works = {
-			picture = GFX_idea_PRE_public_works
+			picture = PRE_public_works
 			removal_cost = -1
 			modifier = {
 				cic_construction_boost = 0.1
