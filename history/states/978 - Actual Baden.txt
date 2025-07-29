@@ -15,15 +15,23 @@ state = {
 		add_core_of = BAD
 
 		victory_points = {
-			3530 10 #Karlsruhe
+			3530 10 # Karlsruhe
 		}
 
 		victory_points = {
-			11640 1 #Müllheim
+			11640 1 # Müllheim
 		}
 
 		victory_points = {
-			6712 1 #Freiburg
+			6712 1 # Freiburg
+		}
+
+		victory_points = {
+			6581 3 # Heidelberg
+		}
+
+		victory_points = {
+			13126 2 # Konstanz
 		}
 
 		buildings = {

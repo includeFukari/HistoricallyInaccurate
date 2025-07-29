@@ -12,15 +12,22 @@ state = {
 	history = {
 
 		owner = WUR
-		add_core_of = GER
 		add_core_of = WUR
 
 		victory_points = {
-			9517 20 #Stuttgart
+			9517 20 # Stuttgart
 		}
 
 		victory_points = {
-			11499 3 #Ulm
+			11499 3 # Ulm
+		}
+
+		victory_points = {
+			519 3 # Tübingen
+		}
+
+		victory_points = {
+			6934 2 # Ravensburg
 		}
 
 		buildings = {
