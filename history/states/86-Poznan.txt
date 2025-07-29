@@ -1,7 +1,7 @@
 state = {
 	id = 86
 	name = "STATE_86"
-	manpower = 301742
+	manpower = 1317977
 	
 	
 	state_category = city
@@ -15,15 +15,27 @@ state = {
 			6558 10 # Poznan
 		}
 
+		victory_points = {
+			17 5 # Gniezno
+		}
+
+		victory_points = {
+			17 1 # Wągrowiec
+		}
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
+			11232 = {
+				bunker = 1
+			}
+			air_base = 3
 		}
 	}
 
 	provinces = {
-		3532 6558
+		17 388 3532 6558 11232
 	}
 
 	local_supplies = 0.0 

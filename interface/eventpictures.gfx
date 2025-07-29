@@ -9,4 +9,8 @@ spriteTypes = {
 		name = "GFX_report_event_PRE_civil_war"
 		texturefile = "gfx/event_pictures/report_event_PRE_civil_war.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_GLC_proclamation"
+		textureFile = "gfx/event_pictures/report_event_GLC_proclamation.tga"
+	}
 }

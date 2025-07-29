@@ -22,4 +22,18 @@ leader_traits = {
 		socialism_drift = -0.01
 		democratic_drift = 0.02
 	}
+	caesar_of_iberia = {
+		sprite = 1
+		political_power_factor = 0.10
+		fascism_drift = 0.05
+		nationalism_drift = 0.05
+	}
+	antimonarchist_figure = {
+		monarchism_drift = -0.05
+		stability_factor = -0.05
+	}
+	roman_legacy = {
+		war_support_factor = 0.10
+		stability_factor = -0.15
+	}
 }

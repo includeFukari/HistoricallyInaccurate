@@ -27,10 +27,6 @@ state = {
 			6377 10 # Hannover
 		}
 
-		victory_points = {
-			11493 1 # Braunschweig
-		}
-
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

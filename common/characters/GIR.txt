@@ -1,0 +1,22 @@
+characters = {
+	GIR_jose_antonio = {
+		name = GIR_jose_antonio
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GIR_jose_antonio
+			}
+		}
+
+		country_leader = {
+			ideology = national_pretorianism
+			traits = {
+				caesar_of_iberia
+				antimonarchist_figure
+				roman_legacy
+			}
+			expire = "1951.8.12.1"
+			desc = GIR_jose_antonio_desc
+		}
+	}
+}

@@ -47,4 +47,8 @@ spriteTypes = {
         name = "GFX_portrait_GLC_enrique_lister"
         texturefile = "gfx/leaders/GLC/portrait_enrique_lister.tga"
     }
+    spriteType = {
+        name = "GFX_portrait_GIR_jose_antonio"
+        textureFile = "gfx/leaders/GIR/portrait_jose_antonio.tga"
+    }
 }

@@ -4,7 +4,7 @@ characters = {
 		
 		portraits = {
 			civilian = {
-				large = GFX_portrait_GLC_enrique_lister #Must be changed later, he's too old in the photo, he should be 23 years old.
+				large = GFX_portrait_GLC_enrique_lister 
 			}
 		}
 
