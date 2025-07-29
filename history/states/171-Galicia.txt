@@ -10,13 +10,26 @@ state={
 		owner = GLC
 		add_core_of = GLC
 		victory_points = {
-			758 5
+			758 5 # La Coruña
 		}
+
 		victory_points = {
-			6734 3
+			6734 3 # Vigo
+		}
+
+		victory_points = {
+			9689 3 # Pontevedra
+		}
+
+		victory_points = {
+			11692 3 # Santiago de Compostela
+		}
+
+		victory_points = {
+			11710 2 # Fisterra
 		}
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			dockyard = 2
 			arms_factory = 1
 			air_base = 2

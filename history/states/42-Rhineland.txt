@@ -27,6 +27,14 @@ state = {
 			9575 3 # Trier
 		}
 
+		victory_points = { 
+			11470 1 # Cochem
+		}
+
+		victory_points = { 
+			589 2 # Darmstadt
+		}
+
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

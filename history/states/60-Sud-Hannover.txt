@@ -24,6 +24,18 @@ state = {
 			538 2 # Jena
 		}
 
+		victory_points = { 
+			6501 2 # Gera
+		}
+
+		victory_points = { 
+			3500 2 # Arnstadt
+		}
+
+		victory_points = { 
+			9497 1 # Neustadt an der Orla
+		}
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

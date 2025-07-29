@@ -19,6 +19,10 @@ state = {
 			11343 1 # Słupsk
 		}
 
+		victory_points = {
+			11316 1 # Bütow
+		}
+
 		buildings = {
 			infrastructure = 2
 		}

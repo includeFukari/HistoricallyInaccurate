@@ -9,10 +9,14 @@ state={
 	history={
 		owner = GLC
 		victory_points = {
-			9817 10
+			9817 10 # Porto
 		}
 		victory_points = {
-			11673 5
+			11673 5 # Braga
+		}
+
+		victory_points = {
+			3892 1 # Mirandela
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

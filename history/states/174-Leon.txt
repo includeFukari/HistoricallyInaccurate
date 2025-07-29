@@ -8,8 +8,21 @@ state={
 	history={
 		owner = GIR
 		victory_points = {
-			726 1
+			726 3 # León
 		}
+
+		victory_points = {
+			3920 1 # Sahagún
+		}
+
+		victory_points = {
+			3727 1 # Astaroga
+		}
+
+		victory_points = {
+			918 1 # Benavente
+		}
+
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1

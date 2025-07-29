@@ -39,13 +39,12 @@ state = {
 			11560 2 # Mainz
 		}
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-				arms_factory = 4
-				# From "Develop Heraeus Research Facilities"
-				industrial_complex = 4
-			}
+		victory_points = {
+			3524 2 # Marburg
+		}
+
+		victory_points = {
+			564 2 # Kassel
 		}
 	}
 

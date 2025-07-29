@@ -31,6 +31,14 @@ state = {
 			11493 1 # Braunschweig
 		}
 
+		victory_points = {
+			6325 1 # Buxtehude
+		}
+
+		victory_points = {
+			6349 1 # Stade
+		}
+
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
