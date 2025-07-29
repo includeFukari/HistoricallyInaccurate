@@ -8,4 +8,16 @@ spriteTypes = {
 		name = GFX_idea_PRE_public_works
 		textureFile = gfx/interface/ideas/PRE_public_works.dds
 	}
+	spriteType = {
+		name = GFX_idea_GLC_army_of_galicia
+		textureFile = gfx/interface/ideas/GLC_army_of_galicia.tga
+	}
+	spriteType = {
+		name = GFX_idea_IBE_struggle_for_iberia
+		textureFile = gfx/interface/ideas/IBE_struggle_for_iberia.tga
+	}
+	spriteType = {
+		name = GFX_idea_IBE_iberian_irredentism
+		textureFile = gfx/interface/ideas/IBE_iberian_irredentism.tga
+	}
 }

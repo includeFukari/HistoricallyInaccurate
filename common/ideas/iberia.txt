@@ -3,8 +3,8 @@ ideas = {
 		# Common
 		struggle_for_iberia = {
 
-			picture = ibe_struggle_for_iberia #No picture yet
-
+			picture = IBE_struggle_for_iberia
+			removal_cost = -1
 			modifier = {
 				surrender_limit = 0.5
                 war_support_factor = 0.15
@@ -18,8 +18,8 @@ ideas = {
             }
 		}
 		iberian_irredentism = {
-			picture = ibe_iberian_irredentism #No picture yet
-			
+			picture = IBE_iberian_irredentism 
+			removal_cost = -1
 			modifier = {
 				army_morale_factor = 0.5
 				war_support_factor = 0.05
@@ -27,12 +27,39 @@ ideas = {
 		}
 		#Socialist Republic of Galicia
 		peoples_army_of_galicia = {
-			picture = glc_army_of_galicia #No picture yet
-			
+			picture = GLC_army_of_galicia
+			removal_cost = -1
 			modifier = {
 				political_power_factor = -0.15
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
+			}
+		}
+		#Iberian Realm
+		distmantling_the_state = {
+			picture = GIR_distmantling_the_state
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.50
+				stability_factor = -0.50
+				war_support_factor = -0.50
+			}
+		}
+		roman_bastion = {
+			picture = GIR_roman_bastion
+			removal_cost = -1
+			modifier = {
+				drift_defence_factor = 0.15
+				democratic_drift = -0.10
+			}
+		}
+		anticommunist_crusade = {
+			picture = GIR_anticommunist_crusade
+			removal_cost = -1
+			modifier = {
+				communism_drift = -0.10
+				socialism_drift = -0.10
+				stability_factor = 0.10
 			}
 		}
 	

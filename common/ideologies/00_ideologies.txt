@@ -299,6 +299,10 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 
+			national_pretorianism = {
+				can_be_randomly_selected = no
+			}
+
 			national_radicalism = {
 				can_be_randomly_selected = no
 			}

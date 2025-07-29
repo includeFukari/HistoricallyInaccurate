@@ -16,13 +16,14 @@ set_politics = {
 set_popularities = {
 	anarchism = 0
 	neutrality = 0
-	communism = 74
-	democratic = 20
+	communism = 35
+	democratic = 30
 	fascism = 0
 	libertarianism = 0
-	monarchism = 6
+	monarchism = 15
     socialism = 0
     theocracy = 0
+	nationalism = 20
 }
 recruit_character = GLC_enrique_lister
 add_ideas = {

@@ -1,0 +1,30 @@
+add_namespace = galicia
+
+country_event = {
+	id = galicia.1
+	title = galicia.1.t
+	desc = galicia.1.d
+	picture = GFX_report_event_GLC_proclamation
+
+	trigger = {
+		tag = GLC
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = galicia.1.a
+		add_stability = 0.10
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = nationalism
+			popularity = 0.10
+		}
+		add_war_support = 0.10
+		add_political_power = 50
+	}
+	
+}

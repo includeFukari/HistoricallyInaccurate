@@ -8,30 +8,30 @@ set_technology = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1930.1.1"
+	ruling_party = fascism
+	last_election = "1929.7.3"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	anarchism = 2
-	neutrality = 7
-	communism = 22
-	democratic = 9
-	fascism = 2
-	libertarianism = 1
-	monarchism = 2
-    socialism = 54
-    theocracy = 1 
+	anarchism = 20
+	neutrality = 3
+	communism = 0
+	democratic = 1
+	fascism = 45
+	libertarianism = 0
+	monarchism = 13
+    socialism = 1
+    theocracy = 0
+	nationalism = 17
 }
 
-create_country_leader = {
-	name = "Ahmed Ben Bella"
-	desc = ""
-	picture = GFX_portrait_Ahmed_Ben_Bella
-	ideology = despotism
-	traits = {
-		#
-	}
+recruit_character = GIR_jose_antonio
+add_ideas = {
+	iberian_irredentism
+	struggle_for_iberia
+	distmantling_the_state
+	roman_bastion
+	anticommunist_crusade
 }
