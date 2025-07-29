@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		SPK_triumph_in_berlin = {
+			picture = SPK_triumph_in_berlin
+			modifier = {
+				stability_factor = 0.025
+				army_speed_factor = 0.25
+			}
+		}
+	}
+}

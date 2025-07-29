@@ -1,0 +1,22 @@
+characters = {
+
+
+	PJG_otto_warburg = {
+		name = PJG_otto_warburg
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PJG_otto_warburg
+			}
+		}
+
+		country_leader = {
+			ideology = jewish_anarchism
+			desc = PJG_otto_warburg
+			traits = {
+				agricultural_expert jewish_prometheus
+			}
+			expire = "1938.1.10.1"
+		}
+	}
+}

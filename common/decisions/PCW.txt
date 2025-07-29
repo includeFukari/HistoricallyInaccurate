@@ -1,0 +1,78 @@
+PCW_guns_category = {
+	PCW_search_warehouses = {
+		cost = 10
+		icon = GFX_surrender_tiny_flag
+		days_remove = 15
+		days_re_enable = 40
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 600
+				producer = PRE
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+				producer = PRE
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	PCW_assemble_makeshift_artillery = {
+		cost = 20
+		icon = GFX_surrender_tiny_flag
+		days_remove = 15
+		days_re_enable = 40
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 20
+			}
+		}
+	}
+}
+
+PCW_territories_category = {
+	PCW_territories_brandenburg = {
+		available = {
+			controls_state = 1041
+		}
+		visible = {
+			controls_state = 1041
+		}
+		cost = 30
+		icon = GFX_decision_generic_form_nation
+		days_remove = 15
+		modifier = {
+			political_power_gain = -0.05
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1042
+				state = 1041
+				state = 64
+			}
+		}
+		remove_effect = {
+			add_state_core = 1042
+			add_state_core = 1041
+			add_state_core = 64
+			hidden_effect = {
+				every_possible_country = {
+					limit = {
+						NOT = { tag = ROOT }
+					}
+					remove_state_core = 1042
+					remove_state_core = 1041
+					remove_state_core = 64
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

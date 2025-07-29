@@ -36,7 +36,6 @@ country_event = {
 				transfer_state = 67
 				add_state_core = 762
 				transfer_state = 762
-				transfer_state = 1043
 				add_ideas = prussian_civil_war
 				declare_war_on = {
 					target = PRE
@@ -46,13 +45,15 @@ country_event = {
 			SPK = {
 				add_state_core = 1042
 				transfer_state = 1042
-				add_state_core = 64
-				transfer_state = 64
+				add_state_core = 1046
+				transfer_state = 1046
 				add_state_core = 68
 				transfer_state = 68
 				add_state_core = 62
 				transfer_state = 62
-				load_oob = "Muntzerbund"
+				add_state_core = 63
+				transfer_state = 63
+				load_oob = "CW_SPK"
 				add_ideas = prussian_civil_war_spk
 				declare_war_on = {
 					target = PRE
@@ -92,10 +93,10 @@ country_event = {
 				transfer_state = 807
 				add_state_core = 87
 				transfer_state = 87
-				add_state_core = 63
-				transfer_state = 63
 				add_state_core = 1045
 				transfer_state = 1045
+				add_state_core = 1043
+				transfer_state = 1043
 				add_ideas = prussian_civil_war
 				set_politics = {
 					ruling_party = neutrality
@@ -108,25 +109,26 @@ country_event = {
 			PJG = {
 				add_state_core = 86
 				transfer_state = 86
+				load_oob = "CW_PJG"
 				add_ideas = prussian_civil_war
 				declare_war_on = {
 					target = PRE
 					type = civil_war
 				}	
 			}
+			KLN = {
+				add_state_core = 1019
+				transfer_state = 1019
+				add_ideas = prussian_civil_war
+			}
+			KSH = {
+				add_state_core = 1047
+				transfer_state = 1047
+				add_ideas = prussian_civil_war
+			}
 			PRE = {
 				add_ideas = prussian_civil_war
-				transfer_units_fraction = {
-					target = PDF
-					size = 0.3
-				}
-				transfer_units_fraction = {
-					target = VLK
-					size = 0.3
-				}
-				transfer_units_fraction = {
-					target = TEU
-					size = 0.1
+				delete_unit = {
 				}
 			}
 		}
@@ -163,48 +165,13 @@ country_event = {
 
 country_event = {
 	id = prussia.3
-
-	fire_only_once = yes
-
-	hidden = yes
-
-	trigger = {
-		tag = SPK
-		controls_province = 6521
-	}
-
-	immediate = {
-		PRE = {
-			country_event = prussia.4
-		}
-		SPK = {
-			country_event = prussia.4
-		}
-		PDF = {
-			country_event = prussia.4
-		}
-		VLK = {
-			country_event = prussia.4
-		}
-		TEU = {
-			country_event = prussia.4
-		}
-	}
-}
-
-country_event = {
-	id = prussia.4
-	title = prussia.4.t
-	desc = prussia.4.desc
+	title = prussia.3.t
+	desc = prussia.3.desc
 	picture = GFX_report_event_muntzerbund
 
-	fire_only_once = yes
-
-	immediate = {
-		
-	}
+	is_triggered_only = yes
 
 	option = {
-		name = prussia.4.a
+		name = prussia.3.a
 	}
 }

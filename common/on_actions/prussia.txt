@@ -1,0 +1,32 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					tag = SPK
+					FROM.FROM = { state = 1041 }
+				}
+				PRE = {
+					country_event = prussia.3
+					add_stability = -0.05
+				}
+				SPK = {
+					country_event = prussia.3
+					add_timed_idea = {
+						idea = SPK_triumph_in_berlin
+						days = 14
+					}
+				}
+				PDF = {
+					country_event = prussia.3
+				}
+				VLK = {
+					country_event = prussia.3
+				}
+				TEU = {
+					country_event = prussia.3
+				}
+			}
+		}
+	}
+}

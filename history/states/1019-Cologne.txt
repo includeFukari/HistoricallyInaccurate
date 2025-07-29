@@ -1,7 +1,7 @@
 state = {
 	id = 1019
 	name = "STATE_1019"
-	manpower = 6144743
+	manpower = 739081
 	resources = {
 		steel = 8
 	}
@@ -10,8 +10,7 @@ state = {
 	
 	history = {
 
-		owner = KLN
-		add_core_of = KLN
+		owner = PRE
 		add_core_of = GER
 		add_core_of = RHI
 		add_core_of = PRE
@@ -20,9 +19,13 @@ state = {
 			587 5 # Köln
 		}
 
-		#victory_points = {
-		#	3547 1 # Bonn
-		#}
+		victory_points = {
+			3547 1 # Bonn
+		}
+
+		victory_points = {
+			9522 1 # Düren
+		}
 
 		buildings = {
 			infrastructure = 4

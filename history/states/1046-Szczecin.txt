@@ -1,0 +1,37 @@
+state = {
+	id = 1046
+	name = "STATE_1046"
+	manpower = 265072
+	resources = {
+		steel = 2
+	}
+	
+	state_category = town
+
+	history = {
+
+		owner = PRE
+		add_core_of = KSH
+		add_core_of = PRE
+
+		victory_points = {
+			6282 5 # Stettin
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6282 = {
+				naval_base = 4
+
+			}
+		}
+		
+	}
+
+	provinces = {
+		6282
+	}
+
+	local_supplies = 7.0 
+}

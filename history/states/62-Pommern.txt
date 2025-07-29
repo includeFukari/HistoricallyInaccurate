@@ -18,6 +18,14 @@ state = {
 		victory_points = {
 			3258 1 # Neustrelitz 
 		}
+
+		victory_points = {
+			13257 1 # Binz 
+		}
+
+		victory_points = {
+			3312 1 # Neubrandenburg 
+		}
 		
 		buildings = {
 			infrastructure = 3

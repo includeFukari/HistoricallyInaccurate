@@ -25,6 +25,11 @@ spriteTypes = {
 	}
 
     SpriteType = {
+		name = "GFX_focus_SPK_form_the_red_army"
+		texturefile = "gfx/interface/goals/focus_SPK_form_the_red_army.dds"
+	}
+
+    SpriteType = {
 		name = "GFX_focus_VLK_landjahr"
 		texturefile = "gfx/interface/goals/focus_VLK_landjahr.dds"
 	}

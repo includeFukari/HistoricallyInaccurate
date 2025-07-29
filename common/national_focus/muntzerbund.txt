@@ -1,0 +1,52 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = muntzerbud_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 50
+			tag = SPK
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1750 }
+
+	initial_show_position = {
+	    focus = SPK_form_the_red_army
+	}
+
+
+	# Start of the Focus Tree
+
+    ### MAIN ###
+
+    focus = {
+        id = SPK_form_the_red_army
+        icon = GFX_focus_SPK_form_the_red_army
+        x = 6
+        y = 2
+        cost = 4
+        completion_reward = {
+            62 = {
+                create_unit = {
+                    division = "name = \"Rote Armee Infanterie\" division_template = \"Rote Armee Infanterie\" start_experience_factor = 0.75"
+                    owner = SPK
+                    count = 4
+                }
+            }
+
+            
+        }
+    }
+}
